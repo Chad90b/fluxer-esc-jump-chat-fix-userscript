@@ -13,9 +13,9 @@ This userscript stops that. The "Jump to Present" button is not touched and keep
 ## Install
 
 1. Install a userscript manager such as Tampermonkey or Violentmonkey.
-2. Open the script from the main branch. It should be the most up-to-date version. Look for the file `fluxer-esc-jump-chat-fix.user.js`
-3. If the manager intercepts it, it opens an install page with the source. Read it before confirming. It is about 80 lines. Do not install a script you have not looked at.
-4. If nothing happens, or the browser just downloads the file, install it by hand:
+2. Open the script from a tagged release (not the main branch): `https://raw.githubusercontent.com/Chad90b/fluxer-esc-jump-chat-fix-userscript/refs/heads/main/fluxer-esc-jump-chat-fix.user.js`
+4. If the manager intercepts it, it opens an install page with the source. Read it before confirming. It is about 80 lines. Do not install a script you have not looked at.
+5. If nothing happens, or the browser just downloads the file, install it by hand:
    - Tampermonkey: click the extension icon, then Dashboard, then the + tab (Create a new script).
    - Violentmonkey: click the extension icon, then Open Dashboard, then the + button.
    - Select all of the template it inserts (Ctrl+A), delete it, and paste the full contents of `fluxer-esc-jump-chat-fix.user.js`.
